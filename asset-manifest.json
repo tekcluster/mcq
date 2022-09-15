@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mcq/static/css/main.e6c13ad2.css",
+    "main.js": "/mcq/static/js/main.93eb44d9.js",
+    "static/js/787.0c3f432a.chunk.js": "/mcq/static/js/787.0c3f432a.chunk.js",
+    "static/media/logo.png": "/mcq/static/media/logo.a764ea10a9778f4bfa34.png",
+    "index.html": "/mcq/index.html",
+    "main.e6c13ad2.css.map": "/mcq/static/css/main.e6c13ad2.css.map",
+    "main.93eb44d9.js.map": "/mcq/static/js/main.93eb44d9.js.map",
+    "787.0c3f432a.chunk.js.map": "/mcq/static/js/787.0c3f432a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.93eb44d9.js"
+  ]
+}
