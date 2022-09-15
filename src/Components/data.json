@@ -1,0 +1,358 @@
+{
+
+  "students": [
+
+{
+
+      "question": ["1. Find the Output:-", "#include <stdio.h>", "int main(){" ,"int a[3]={1,2,3};","printf(''%d'',a[3]);}"],
+      "option": ["3","1","Garbage Value","Error"],
+      "Ans":"Garbage Value"
+    },
+   
+    {
+
+      "question": ["2. Number of primitive data types in Java are?"],
+      "option":["6","7","8","9"],
+      "Ans":"8"
+
+    },
+    {
+      "question":["3. Find the Output:-","#include<stdio.h>","void main(){","printf(''%d'',printf(''CSE''));","}"],
+      "option":["1","2","3","4"],
+      "Ans":"3"
+    },
+    {
+      "question":["4. Find the Output:-","#include<stdio.h>","void main(){","char a[3]=''CSE'';","a[1]=0;","printf(''%s'',a);","}"],
+      "option":["CSE","C","CE","C0E"],
+      "Ans":"C"
+    }
+    ,{
+      "question":["5. Find the Output:-","#include<stdio.h>","void main(){ ","if(1,0,2,0) printf(''Hi'');","else printf(''Bye'');","}"],
+      "option":["Hi","Bye","Runtime Error","Compile time Error"],
+      "Ans":"Bye"
+      
+      },
+
+ 
+ {
+  "question":["6. Find the Output:-","#include<stdio.h>","void main(){","int a=10;","int b=(a++,a++,a++);","printf(''%d-%d'',a,b);","}"],
+  "option":["10-10","13-11","13-10","13-12"],
+  "Ans":"13-12",
+  "Answered":""
+ },
+ 
+ {
+  "question":["7. Find the Output:-","#include<stdio.h>","void main(){","const int a=10;","int *prt=&a;","prt=5;","printf(''%d'',a);","}"],
+  "option":["5","10","Runtime Error","Compiletime Error"],
+  "Ans":"10",
+  "Answered":""
+ },
+ 
+ {
+  "question":["8. Find the Output:-","#include<stdio.h>","void main(){","const int a=10;","int *prt=&a;","*prt=5;","printf(''%d'',a);","}"],
+  "option":["5","10","Runtime Error","Compiletime Error"],
+  "Ans":"5",
+  "Answered":""
+ },
+ 
+ {
+  "question":["9. Find the Output:-","#include<stdio.h>","void main(){","printf(''%d'',10++)","}"],
+  "option":["11","10","9","Error"],
+  "Ans":"Error",
+  "Answered":""
+ },
+ 
+ {
+  "question":["10. Find the Output:-","#include<stdio.h>","void main(){","int a=10;","if(++a&&a++)","printf(''%d'',a);","}"],
+  "option":["None","10","11","12"],
+  "Ans":"12",
+  "Answered":""
+ },
+ 
+ {
+  "question":["11. Find the Output:-","#include<stdio.h>","void main(){","int a=10;","if(++a||a++)","printf(''%d'',a);","}"],
+  "option":["None","10","11","12"],
+  "Ans":"11",
+  "Answered":""
+ },
+ 
+ {
+  "question":["12. C is an"],
+  "option":["Procedural language","Object-oriented language","Partially Object-oriented language","None of the above"],
+  "Ans":"Procedural language",
+  "Answered":""
+ },
+ 
+ 
+ 
+ {
+  "question":["13. C is"],
+  "option":["Dynamically-typed language","Partially statically typed language","Partially Dynamically-typed language","Statically typed language"],
+  "Ans":"Statically typed language",
+  "Answered":""
+ },
+ 
+ {
+  "question":["14. Arrays in java are"],
+  "option":["Objects","Object references","Primitive data type","None"],
+  "Ans":"Objects",
+  "Answered":""
+ },
+ 
+ {
+  "question":["15. Find the Output:-","String str=''Hello'';","System.out.println(str.indexOf(''t''));"],
+  "option":["1","0","-1","False"],
+  "Ans":"-1",
+  "Answered":""
+ },
+ 
+ {
+  "question":["16. How many objects will be created in the following?","String a = new String(''CSE'');","String b = new String(''CSE'');","String c = ''CSE'';","String d = ''CSE'';"],
+  "option":["2","3","4","1"],
+  "Ans":"3",
+  "Answered":""
+ },
+ 
+ {
+  "question":["17. Find the Output:-","String s=''CSE'';","s.replace(''C'',''E'');","System.out.println(s);"],
+  "option":["ESE","CSE","CSC","None"],
+  "Ans":"CSE"
+  ,
+  "Answered":""
+ },
+ 
+ {
+  "question":["18. What does the operator >>>> do?"],
+  "option":["Right Shift Operator","Left Shift Operator","Zero fill Right Shift","Zero fill Left Shift"],
+  "Ans":"Zero fill Right Shift",
+  "Answered":""
+ },
+ 
+ {
+  "question":["19. Identify the incorrect Java feature."],
+  "option":["Object Oriented","Use of Pointer","Dynamic","Architectural neural"],
+  "Ans":"Use of Pointer",
+  "Answered":""
+ },
+ 
+ {
+  "question":["20. Which of the following is used to find and fix bugs in the program?"],
+  "option":["JDK","JRE","JVM","JDB"],
+  "Ans":"JDB",
+  "Answered":""
+ },
+ 
+ {
+  "question":["21.Identify the valid one"],
+  "option":["Select # from table","select all from table","select mark from table","select *all from table"],
+  "Ans":"select mark from table",
+  "Answered":""
+ },
+ 
+ {
+  "question":["22. Evaluate the following expression, if x=3, y=5, and z=10:","++z + y - y + z + x++"],
+  "option":["24","23","25","20"],
+  "Ans":"25",
+  "Answered":""
+ },
+ 
+ {
+  "question":["23. Abstract class only contains Abstract method."],
+  "option":["True","False"],
+  "Ans":"False",
+  "Answered":""
+ },
+ 
+ {
+  "question":["24. The private members of the base class are visible in derived class but are not accessible directly."],
+  "option":["True","False"],
+  "Ans":"True",
+  "Answered":""
+ },
+ 
+ 
+ 
+ {
+  "question":["25. Which of these can be overloaded?"],
+  "option":["Methods","Constructors","All of the Above","None of the Above"],
+  "Ans":"All of the Above",
+  "Answered":""
+ },
+ 
+ {
+  "question":["26. Which of these keywords is used to define interfaces in Java?"],
+  "option":["interface","Interface","intf","Intf"],
+  "Ans":"Interface",
+  "Answered":""
+ },
+ 
+ {
+  "question":["27. The encapsulation is achieved by combining which ones into a class?"],
+  "option":["Methods and Attribute","Methods and Object","Object and Attribute","None of the above"],
+  "Ans":"Methods and Attribute",
+  "Answered":""
+ },
+ 
+ {
+  "question":["28. The inner class can access private members of the outer class"],
+  "option":["True","False"],
+  "Ans":"True",
+  "Answered":""
+ },
+ 
+ {
+  "question":["29. The latest HTML standard is"],
+  "option":["HTML 4.0","HTML 5.0","XML","SGML"],
+  "Ans":"HTML 5.0",
+  "Answered":""
+ },
+ 
+ {
+  "question":["30. Which attribute is used to provide a unique name to an HTML element?"],
+  "option":["id","class","type","None of the above"],
+  "Ans":"id",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Colors are defined in HTML using?"],
+  "option":["RGB Value","HEX Values","RGBA Values","All of the above"],
+  "Ans":"All of the above",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Which has higher priority?"],
+  "option":["External CSS","internal CSS","Inline CSS","All are Equal"],
+  "Ans":"Inline CSS",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output:-","int a=10;","int b=10;","int c=10;","System.out.println('' ''+a+b+c);"],
+  "option":["Error","30","40","101010"],
+  "Ans":"101010",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Which of the following methods is used to access HTML elements using Javascript?"],
+  "option":["getElementbyId()","getElementsByclassname()","Both A and B","None of the above"],
+  "Ans":"getElementbyId()",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output(JavaScript):-","var a = true + true + true * 3;","Console.log(a);"],
+  "option":["3","0","Error","5"],
+  "Ans":"5",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output(JavaScript):-","console.log(''10''==10);"],
+  "option":["Error","true","false","undefined"],
+  "Ans":"true",
+  "Answered":""
+ },
+ 
+ {
+  "question":["What is the maximum length of a Python identifier?"],
+  "option":["32","16","128","No fixed length is specified"],
+  "Ans":"No fixed length is specified",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Which of the following types of loops are not supported in Python?"],
+  "option":["for","while","do-while","None of the above"],
+  "Ans":"do-while",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output(Python):-","a=[2,3]","print([2,3]*3)"],
+  "option":["Error","[6,9]","[[2,3],[2,3],[2,3]]","[2,3,2,3,2,3]"],
+  "Ans":"[2,3,2,3,2,3]",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Which is not a bitwise operator?"],
+  "option":["&","|",">>","&&"],
+  "Ans":"&&",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output:-","#include<stdio.h>","void main(){","for(int i=0;i<10;i++);","printf(''%d'',i);","}"],
+  "option":["0","9","10","Error"],
+  "Ans":"Error",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output:-","#include<stdio.h>","#define a 10","int main() {","a=30;","printf(''%d'',a);","return 0;","}"],
+  "option":["30","10","Garbage Value","Error"],
+  "Ans":"Error",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Find the Output:-","#include<stdio.h>","int main()","{","int x=10;","x &= ~2;","printf(''%d'',x);","return 0;","}"],
+  "option":["10","8","12","0"],
+  "Ans":"8",
+  "Answered":""
+ },
+ 
+ {
+  "question":["Which Bitwise Operator can be used to check whether a number is EVEN or ODD quickly?"],
+  "option":["&","|","^","~"],
+  "Ans":"&",
+  "Answered":""
+ },
+ 
+ {
+  "question":["How many Primary keys can have in a table?"],
+  "option":["1","2","3","no limit"],
+  "Ans":"1",
+  "Answered":""
+ },
+ 
+ {
+  "question":["How many Primary keys can have in a table?"],
+  "option":["default","volatile","typedef","static"],
+  "Ans":"typedef",
+  "Answered":""
+ },
+ 
+ {
+  "question":["The size of a union is determined by the size of the __________"],
+  "option":["First member in the union","Last member in the union","Biggest member in the union","Sum of the sizes of all members"],
+  "Ans":"Biggest member in the union",
+  "Answered":""
+ },
+ 
+ {
+  "question":["What will be the size of the following structure?","#include <stdio.h>","struct temp{","int a[10];","char p;","};"],
+  "option":["5","11","15","44"],
+  "Ans":"44",
+  "Answered":""
+ },
+ {
+  "question":["Who invented Java Programming?"],
+  "option":["James Gosling","Dennis Ritchie","Bjarne Stroustrup"," Guido van Rossum"],
+  "Ans":"James Gosling",
+  "Answered":""
+ },
+ {
+  "question":["Find the Output:-","#include<stdio.h>","int main(){","printf(''Hi'');","return 0;","printf(''Hi'');","printf(''Hi'');","printf(''Hi'');","}"],
+  "option":["Hi","HiHi","HiHiHiHi","HiHiHi"],
+  "Ans":"Hi",
+  "Answered":""
+ }
+
+
+  ]
+
+}
